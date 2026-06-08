@@ -1,0 +1,42 @@
+2026-06-08 17:08:31 | ERROR    | trading_bot.cli | API credentials missing — aborting.
+2026-06-08 17:08:38 | ERROR    | trading_bot.cli | Validation failed: Stop price (--stop-price) is required for STOP_MARKET orders.
+2026-06-08 17:08:43 | INFO     | trading_bot.cli | Order request | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.001 price=None stopPrice=58000
+2026-06-08 17:08:43 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised. Base URL: https://testnet.binancefuture.com
+2026-06-08 17:08:43 | INFO     | trading_bot.orders | Placing STOP_MARKET BUY BTCUSDT qty=0.001 stopPrice=58000
+2026-06-08 17:08:43 | DEBUG    | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params: {"symbol": "BTCUSDT", "side": "BUY", "type": "STOP_MARKET", "quantity": "0.001", "stopPrice": "58000", "timestamp": 1780918723129}
+2026-06-08 17:08:44 | DEBUG    | trading_bot.client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status: 401 | body: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 17:08:44 | ERROR    | trading_bot.client | API error -2014: API-key format invalid.
+2026-06-08 17:08:44 | ERROR    | trading_bot.orders | Failed to place STOP_MARKET order: Binance API error -2014: API-key format invalid.
+2026-06-08 17:08:48 | ERROR    | trading_bot.cli | Validation failed: Price should not be provided for STOP_MARKET orders.
+2026-06-08 17:08:54 | ERROR    | trading_bot.cli | Validation failed: Price is required for LIMIT orders.
+2026-06-08 17:08:58 | INFO     | trading_bot.cli | Order request | symbol=BTCUSDT side=BUY type=LIMIT qty=0.001 price=60000 stopPrice=None
+2026-06-08 17:08:58 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised. Base URL: https://testnet.binancefuture.com
+2026-06-08 17:08:58 | INFO     | trading_bot.orders | Placing LIMIT BUY BTCUSDT qty=0.001 price=60000 tif=GTC
+2026-06-08 17:08:58 | DEBUG    | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params: {"symbol": "BTCUSDT", "side": "BUY", "type": "LIMIT", "quantity": "0.001", "price": "60000", "timeInForce": "GTC", "timestamp": 1780918738379}
+2026-06-08 17:08:58 | DEBUG    | trading_bot.client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status: 401 | body: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 17:08:58 | ERROR    | trading_bot.client | API error -2014: API-key format invalid.
+2026-06-08 17:08:58 | ERROR    | trading_bot.orders | Failed to place LIMIT order: Binance API error -2014: API-key format invalid.
+2026-06-08 17:23:05 | ERROR    | trading_bot.cli | API credentials missing — aborting.
+2026-06-08 17:23:23 | ERROR    | trading_bot.cli | API credentials missing — aborting.
+2026-06-08 17:23:40 | INFO     | trading_bot.cli | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stopPrice=None
+2026-06-08 17:23:40 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised. Base URL: https://testnet.binancefuture.com
+2026-06-08 17:23:40 | INFO     | trading_bot.orders | Placing MARKET BUY BTCUSDT qty=0.001
+2026-06-08 17:23:40 | DEBUG    | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params: {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": "0.001", "timestamp": 1780919620520}
+2026-06-08 17:23:41 | DEBUG    | trading_bot.client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status: 401 | body: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 17:23:41 | ERROR    | trading_bot.client | API error -2014: API-key format invalid.
+2026-06-08 17:23:41 | ERROR    | trading_bot.orders | Failed to place MARKET order: Binance API error -2014: API-key format invalid.
+2026-06-08 17:24:48 | INFO     | trading_bot.cli | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stopPrice=None
+2026-06-08 17:24:48 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised. Base URL: https://testnet.binancefuture.com
+2026-06-08 17:24:48 | INFO     | trading_bot.orders | Placing MARKET BUY BTCUSDT qty=0.001
+2026-06-08 17:24:48 | DEBUG    | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params: {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": "0.001", "timestamp": 1780919688699}
+2026-06-08 17:24:49 | DEBUG    | trading_bot.client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status: 401 | body: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 17:24:49 | ERROR    | trading_bot.client | API error -2014: API-key format invalid.
+2026-06-08 17:24:49 | ERROR    | trading_bot.orders | Failed to place MARKET order: Binance API error -2014: API-key format invalid.
+2026-06-08 17:25:34 | INFO     | trading_bot.cli | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stopPrice=None
+2026-06-08 17:25:34 | DEBUG    | trading_bot.client | BinanceFuturesClient initialised. Base URL: https://testnet.binancefuture.com
+2026-06-08 17:25:34 | INFO     | trading_bot.orders | Placing MARKET BUY BTCUSDT qty=0.001
+2026-06-08 17:25:34 | DEBUG    | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params: {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": "0.001", "timestamp": 1780919734108}
+2026-06-08 17:25:34 | DEBUG    | trading_bot.client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status: 401 | body: {"code":-2014,"msg":"API-key format invalid."}
+2026-06-08 17:25:34 | ERROR    | trading_bot.client | API error -2014: API-key format invalid.
+2026-06-08 17:25:34 | ERROR    | trading_bot.orders | Failed to place MARKET order: Binance API error -2014: API-key format invalid.
+2026-06-08 17:27:05 | ERROR    | trading_bot.cli | API credentials missing — aborting.
