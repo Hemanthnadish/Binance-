@@ -239,5 +239,5 @@ This project is licensed under the **MIT License**.
 ---
 
 <div align="center">
-Built with ❤️ for the Binance Futures Testnet
+  Made with ❤️ for the <strong>Binance Futures Testnet</strong>
 </div>
